@@ -7,4 +7,6 @@
 3. 录屏，ubuntu17上只有green recorder能用，支持区域录屏，还不错，唯一的缺点是输出的格式只有webm，需要转换一下，具体的指令是 ffmpeg -i in.webm -s <width>x<hight> out.mp4
 4. 安装android fastboot工具： sudo apt-get install android-tools-fastboot   ps：我用fastboot 刷入factory image的时候，老是提示我fastboot is too old，可我明明从google官网下的最新版，谷歌对linux的支持很不好
 5. 安装openjdk7： 网上其它说的做法都不管用，参考这个问题的第二个回答：https://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher
-6. ​
+6. ​算是一点感想吧，打jar包到服务器上跑，因为这个东西比较耗时耗内存，所以需要弄个监视进程监视一下java进程的状态，太耗时就给他干掉，这几天抽空学习一下python监视脚本。
+7. docker：做了一道CTF题需要docker的环境，之前没接触过。
+8. scp命令
