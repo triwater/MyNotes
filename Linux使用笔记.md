@@ -8,5 +8,9 @@
 4. 安装android fastboot工具： sudo apt-get install android-tools-fastboot   ps：我用fastboot 刷入factory image的时候，老是提示我fastboot is too old，可我明明从google官网下的最新版，谷歌对linux的支持很不好
 5. 安装openjdk7： 网上其它说的做法都不管用，参考这个问题的第二个回答：https://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher
 6. ​算是一点感想吧，打jar包到服务器上跑，因为这个东西比较耗时耗内存，所以需要弄个监视进程监视一下java进程的状态，太耗时就给他干掉，这几天抽空学习一下python监视脚本。
-7. docker：做了一道CTF题需要docker的环境，之前没接触过。
+7. docker：做了一道CTF题需要docker的环境，之前没接触过。主要参考https://yeasy.gitbooks.io/docker_practice/content/ 
+  几个简单的命令:docker image ls; docker run <name of image>
 8. scp命令
+9. adb devices的时候no permissions (user in plugdev group; are your udev rules wrong?)
+  github上有个项目说这个的https://github.com/M0Rf30/android-udev-rules
+  但是我试了一下不行,最后关掉usb调试再打开就ok了
